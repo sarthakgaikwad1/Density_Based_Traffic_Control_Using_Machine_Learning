@@ -1,1 +1,1 @@
-This project was built using Python, Flask, HTML and CSS. This project based on Machine Learning.
+This project Density Based Traffic Control Using Machine Learning was built using Python, Flask, HTML and CSS. This project based on Machine Learning. I have used CNN algorithm to manage traffic data in this project.
