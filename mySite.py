@@ -66,7 +66,6 @@ def traffic():
             img2 = cv2.imread(os.path.join("static/images/4/","2.jpg"))
             img3 = cv2.imread(os.path.join("static/images/4/","3.jpg"))
             img4 = cv2.imread(os.path.join("static/images/4/","4.jpg"))
-        
 
         #cv2.imwrite(os.path.join("static/images/","1.jpg"),img1)
         #cv2.imwrite(os.path.join("static/images/","2.jpg"),img2)
