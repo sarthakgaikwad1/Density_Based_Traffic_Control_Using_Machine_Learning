@@ -4,6 +4,7 @@ import os
 import cv2
 import watchdog.events
 car_cascade = cv2.CascadeClassifier('car_detect.xml') 
+
 app = Flask(__name__)
 
 app.secret_key = '1234'
