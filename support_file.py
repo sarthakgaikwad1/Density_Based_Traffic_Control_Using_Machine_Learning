@@ -86,7 +86,7 @@ def get_frame(scen):
  
         imgencode=cv2.imencode('.jpg',frames1)[1]
         stringData=imgencode.tostring()
-       
+
         yield (b'--frame\r\n'
             b'Content-Type: text/plain\r\n\r\n'+stringData+b'\r\n')
 
