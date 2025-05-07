@@ -183,7 +183,7 @@ def traffic():
 
         for (x,y,w,h) in cars3:
             print(x)
-        
+    
             cv2.rectangle(img3,(x,y),(x+w,y+h),(0,0,255),2)
             if(P3 == 2):
                 color = O
