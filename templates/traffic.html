@@ -1,5 +1,6 @@
 {% extends "layout.html" %}
 {% block content %}
+
 <script>
 function refresh(node)
 {
@@ -37,9 +38,11 @@ window.onload = function()
 <div class="vehicle" style="float: left;">
     <h1>Real Time Traffic Monitoring</h1>
     <p></p>
+   
      <img id="img1" src="/static/images/1.jpg">
      <img id="img2" src="/static/images/2.jpg">
     <br><br>
+   
      <img id="img3" src="/static/images/3.jpg">
      <img id="img4" src="/static/images/4.jpg">
      <br><br>
@@ -57,6 +60,7 @@ window.onload = function()
           <th>Time</th>
           <th>Signal Type</th>
         </tr>
+       
         <tr>
           <td>Signal 1</td>
           <td>{{ total_cars1 }}</td>          
@@ -64,6 +68,7 @@ window.onload = function()
           <td>{{ T1 }}</td>
           <td>{{ Sig1 }}</td>
         </tr>
+       
         <tr>
           <td>Signal 2</td>
           <td>{{ total_cars2 }}</td>           
@@ -71,6 +76,7 @@ window.onload = function()
           <td>{{ T2 }}</td>
           <td>{{ Sig2 }}</td>
         </tr>
+       
         <tr>
           <td>Signal 3</td>
           <td>{{ total_cars3 }}</td>           
@@ -78,6 +84,7 @@ window.onload = function()
           <td>{{ T3 }}</td>
           <td>{{ Sig3 }}</td>
         </tr>
+       
         <tr>
           <td>Signal 4</td>
           <td>{{ total_cars4 }}</td>           
