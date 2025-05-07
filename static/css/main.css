@@ -175,6 +175,7 @@ div.coding input[type="submit"] {
   float: left;
   margin-right: 380px;
 }
+
 .code ul li:nth-child(2) {
   margin-right: 0px !important;
 }
