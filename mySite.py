@@ -12,6 +12,7 @@ app.secret_key = '1234'
 @app.route('/', methods=['GET', 'POST'])
 def login():
     error = None
+    
     if request.method == 'POST':
         if request.form['username'] != 'admin' or request.form['password'] != 'admin':
             error = 'Invalid Credentials. Please try again.'
