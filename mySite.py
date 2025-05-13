@@ -40,7 +40,7 @@ def vehicle():
     #scen = session.get('scen',None)
     #print(scen)
     return render_template('vehicle.html')
-
+    
 @app.route('/traffic',methods=['GET', 'POST'])
 def traffic():
     if request.method == 'POST':
