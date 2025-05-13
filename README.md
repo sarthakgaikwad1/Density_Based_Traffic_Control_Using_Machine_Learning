@@ -5,4 +5,4 @@ Designed a responsive web dashboard for real-time traffic monitoring, improving 
 Integrated dynamic signal adjustments based on live vehicle density, enhancing traffic flow.
 Enhanced traffic flow by 15% using real-time AI-driven signal adjustments.
 
-# Technology Used: HTML, CSS, Python, Flask, CNN
+# Technology Used: HTML, CSS, Python, Flask
