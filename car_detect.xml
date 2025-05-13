@@ -3,6 +3,7 @@
 <opencv_storage>
 <cars3 type_id="opencv-haar-classifier">
   <size>
+    
     20 20</size>
   <stages>
     <_>
