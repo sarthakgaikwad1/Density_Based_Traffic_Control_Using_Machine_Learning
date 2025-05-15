@@ -1,4 +1,4 @@
-🚦 Density-Based Traffic Control Using Machine Learning
+# 🚦 Density-Based Traffic Control Using Machine Learning
 An AI-powered traffic control system that uses CNNs for real-time vehicle detection and dynamic signal adjustment.
 
 # Project Highlights
