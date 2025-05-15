@@ -12,8 +12,8 @@ Automated traffic signal control based on live vehicle density to reduce congest
 
 Achieved up to 15% improvement in traffic flow through AI-driven decision-making.
 
-# Tech Stack:
+# Tech Stack Used:
 Python · Flask · HTML · CSS · OpenCV · Machine Learning (CNN)
 
-# Live Demo / Repo:
+# Repository:
 https://github.com/sarthakgaikwad1/Density_Based_Traffic_Control_Using_Machine_Learning
