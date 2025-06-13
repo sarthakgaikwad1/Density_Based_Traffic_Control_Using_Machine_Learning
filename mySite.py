@@ -7,7 +7,6 @@ car_cascade = cv2.CascadeClassifier('car_detect.xml')
 
 app = Flask(__name__)
 
-
 app.secret_key = '1234'
 
 @app.route('/', methods=['GET', 'POST'])
