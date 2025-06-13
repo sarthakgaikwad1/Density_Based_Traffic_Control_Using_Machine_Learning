@@ -4,6 +4,8 @@ cap = cv2.VideoCapture('video.avi')
 
 car_cascade = cv2.CascadeClassifier('car_detect.xml') 
 
+
+
 while True:
 
     ret, frames = cap.read() #extract video frame
